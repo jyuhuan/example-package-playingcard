@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "2905935f720c06482765e3fb1633f6e8"
+build_time: [533333845, 140625000]
+inputs:
+  "/Users/yuhuan/work/proj/swift/example-package-playingcard/Sources/PlayingCard.swift": [533333825, 0]
+  "/Users/yuhuan/work/proj/swift/example-package-playingcard/Sources/Rank.swift": [533333824, 0]
+  "/Users/yuhuan/work/proj/swift/example-package-playingcard/Sources/Suit.swift": [533333824, 0]

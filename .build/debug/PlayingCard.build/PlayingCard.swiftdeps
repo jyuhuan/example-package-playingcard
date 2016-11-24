@@ -1,0 +1,25 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlayingCard"
+provides-nominal:
+- "V11PlayingCard11PlayingCard"
+provides-member:
+- ["V11PlayingCard11PlayingCard", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Suit"
+- "Rank"
+- "PlayingCard"
+depends-member:
+- ["V11PlayingCard11PlayingCard", "Rank"]
+- ["V11PlayingCard11PlayingCard", "Suit"]
+- ["V11PlayingCard11PlayingCard", "init"]
+- ["V11PlayingCard11PlayingCard", "rank"]
+- ["V11PlayingCard11PlayingCard", "suit"]
+depends-nominal:
+- "V11PlayingCard11PlayingCard"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "dc91550ca1dc396422e57a9c6bd866ce"

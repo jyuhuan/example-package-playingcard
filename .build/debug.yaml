@@ -1,0 +1,24 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["<PlayingCard.module>"]
+  "main": ["<PlayingCard.module>"]
+default: "main"
+commands: 
+  "<PlayingCard.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "PlayingCard"
+    module-output-path: "/Users/yuhuan/work/proj/swift/example-package-playingcard/.build/debug/PlayingCard.swiftmodule"
+    inputs: []
+    outputs: ["<PlayingCard.module>","/Users/yuhuan/work/proj/swift/example-package-playingcard/.build/debug/PlayingCard.build/PlayingCard.swift.o","/Users/yuhuan/work/proj/swift/example-package-playingcard/.build/debug/PlayingCard.build/Rank.swift.o","/Users/yuhuan/work/proj/swift/example-package-playingcard/.build/debug/PlayingCard.build/Suit.swift.o"]
+    import-paths: ["/Users/yuhuan/work/proj/swift/example-package-playingcard/.build/debug"]
+    temps-path: "/Users/yuhuan/work/proj/swift/example-package-playingcard/.build/debug/PlayingCard.build"
+    objects: ["/Users/yuhuan/work/proj/swift/example-package-playingcard/.build/debug/PlayingCard.build/PlayingCard.swift.o","/Users/yuhuan/work/proj/swift/example-package-playingcard/.build/debug/PlayingCard.build/Rank.swift.o","/Users/yuhuan/work/proj/swift/example-package-playingcard/.build/debug/PlayingCard.build/Suit.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/yuhuan/work/proj/swift/example-package-playingcard/.build/debug/ModuleCache"]
+    sources: ["/Users/yuhuan/work/proj/swift/example-package-playingcard/Sources/PlayingCard.swift","/Users/yuhuan/work/proj/swift/example-package-playingcard/Sources/Rank.swift","/Users/yuhuan/work/proj/swift/example-package-playingcard/Sources/Suit.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
